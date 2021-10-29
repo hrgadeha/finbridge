@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include finbridge *.css
+recursive-include finbridge *.csv
+recursive-include finbridge *.html
+recursive-include finbridge *.ico
+recursive-include finbridge *.js
+recursive-include finbridge *.json
+recursive-include finbridge *.md
+recursive-include finbridge *.png
+recursive-include finbridge *.py
+recursive-include finbridge *.svg
+recursive-include finbridge *.txt
+recursive-exclude finbridge *.pyc
